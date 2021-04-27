@@ -18,7 +18,12 @@ public class StreamTest {
         System.out.println(integerStream);
 
         // 映射
-            numbers.stream().filter(num -> num > 3).map(i -> numbers.get(i)).collect(Collectors.toList()    );
+        numbers.stream().filter(num -> num > 3).map(i -> numbers.get(i)).collect(Collectors.toList());
+    }
+
+    @Test
+    public void test1(){
+        System.out.println("===========first test==========");
     }
 
 }
