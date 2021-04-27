@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>tk-mybatis</module>
+        <module>java8-stream</module>
     </modules>
 
     <parent>
